@@ -12,6 +12,8 @@ C++ project which can be debugged by visual stdio 2015 is provided.
 * Anonymous pipe only can be used by parent process and its child process. In my project, both parent and child has the same application name. The main difference between the parent and child is that the child process has arguments.
 * Parent process create the 'Anonymous Pipe` and child process. After that, parent process write a string to the pipe.
 * The only task of the child process is read string form the pipe and output it.
+* You can get the detial description on my [CSDN Blog Page](http://blog.csdn.net/ezhchai/article/details/74974682)
+* The demo codes can also be downloaded by [Anonymous Pipe](http://download.csdn.net/download/ezhchai/9895267)
 # Codes
 ```cpp
 #include "stdafx.h"
@@ -68,3 +70,6 @@ int main(int argc, char* argv[])
 	return 0;
 }
 ```
+# Result
+![]( https://github.com/ezhchai/Anonymous_Pipe/raw/master/Results/ParentProcess.jpg)
+![]( https://github.com/ezhchai/Anonymous_Pipe/raw/master/Results/ChildProcess.jpg)
